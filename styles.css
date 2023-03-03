@@ -1,0 +1,74 @@
+body {
+    background-color: wheat;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 200, 116);
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.logo {
+    color: rgb(39, 18, 9);
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(39, 18, 9);
+}
+
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 60px;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+
+.moon {
+    max-width: 30%;
+    max-height: auto;
+    flex-shrink: 0;
+}
+
+.shop-now {
+    flex: 0 0 auto;
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+    border: 0;
+} 
+
+.best-sellers{
+    display: flex;
+}
+
+.candle{
+    max-width: 15%;
+}
