@@ -6,14 +6,17 @@ body {
 .top {
     display: flex;
     flex-direction: column;
-    background-color: rgb(245, 200, 116);
+    background-color: rgb(235, 200, 136);
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
 
 
@@ -39,36 +42,117 @@ a {
 .first-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 30px 60px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    flex-shrink: 0;
 }
 
 
 .about {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    width: 400px;
 }
 
 
 .moon {
-    max-width: 30%;
-    max-height: auto;
+    width: 500px;
+    height: auto;
+    height: auto;
     flex-shrink: 0;
 }
 
 .shop-now {
-    flex: 0 0 auto;
     padding: 8px 16px;
+    width: 120px;
     color: white;
     background-color: black;
     border: 0;
+    border-radius: 15px;
 } 
 
 .best-sellers{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.shop-our {
+    padding-bottom: 20px
 }
 
 .candle{
-    max-width: 15%;
+    border-radius: 15px;
+}
+
+.collection {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.candle-group {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    background-color: rgb(177, 152, 116);
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.quote-main {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.by {
+    margin-left: 550px;
+}
+
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 28, 20);
+    color: white;
+    border-radius: 15px;
+    margin: 100px 300px;
+    padding: 20px 100px;
+}
+
+.sign-news {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    width: 120px;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 47, 27);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
